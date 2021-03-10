@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Demo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button class="btn btn-open">Open</button>
+    <div class="progres-time">
+        <span class="progress_bar"></span>
+    </div>
+        <div class="popup">
+            <div class="content slideshow">
+                <div class="slides-container">
+                    <div class="item">
+                        <h1 class="title">Center</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi tempora laudantium quas laborum beatae harum blanditiis necessitatibus minima nisi. Nam error ad porro ipsum quisquam laudantium consequatur aliquam molestiae cum.</p>
+                    </div>
+                    <div class="item">
+                        <h1 class="title">A new Wolrd</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi tempora laudantium quas laborum beatae harum blanditiis necessitatibus minima nisi. Nam error ad porro ipsum quisquam laudantium consequatur aliquam molestiae cum.</p>
+                    </div>
+                </div>
+                <div class="controls">
+                    <button class="btn-close">Ok!, Close.</button>
+                    <div class="controls-slide">
+                        <button class="btn-prev">Prev</button>
+                        <button class="btn-next">Next</button>
+                    </div>
+                </div>
+                <div class="progres-time">
+                    <span class="progress_bar"></span>
+                </div>
+            </div>
+        </div>
+
+
+    <script src="./dist/js/popup.js"></script>
+    <script>
+        Popup('.popup',{
+            direction:'topLeft',
+            slideConfig:{
+                infinite:true,
+            }
+        })
+    </script>
+</body>
+</html>

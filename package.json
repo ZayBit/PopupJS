@@ -1,0 +1,19 @@
+{
+  "name": "popupjs",
+  "version": "1.0.0",
+  "description": "Para utilizar el projecto solo haria falta crear un nuevo objeto\r llamado **Popup** seguido de definir la clase del elemento y una direccion\r > El tiempo \r ``` js\r     new Popup('.popup', {\r       direction: 'center'\r     })\r ```\r ## Direcciones:\r * **topLeft**\r * **topRight**\r * **center**\r * **midLeft**\r * **midRight**\r * **topCenter**\r * **bottomLeft**\r * **bottomRight**\r * **bottomCenter**",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZayBit/PopupJS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZayBit/PopupJS/issues"
+  },
+  "homepage": "https://github.com/ZayBit/PopupJS#readme"
+}
